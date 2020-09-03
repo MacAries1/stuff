@@ -40,7 +40,7 @@
 								},
 								"sink": {
 									"name": "BusinessEntityID",
-									"type": "Int32"
+									"type": "String"
 								}
 							},
 							{
@@ -69,7 +69,8 @@
 									"ordinal": 4
 								},
 								"sink": {
-									"name": "OrganizationNode"
+									"name": "OrganizationNode",
+									"type": "String"
 								}
 							},
 							{
@@ -79,7 +80,7 @@
 								},
 								"sink": {
 									"name": "OrganizationLevel",
-									"type": "Int16"
+									"type": "String"
 								}
 							},
 							{
