@@ -10,8 +10,7 @@
 		"schema": [
 			{
 				"name": "BusinessEntityID",
-				"type": "int",
-				"precision": 10
+				"type": "nvarchar"
 			},
 			{
 				"name": "NationalIDNumber",
@@ -23,12 +22,11 @@
 			},
 			{
 				"name": "OrganizationNode",
-				"type": "rob-demo-sql.sys.hierarchyid"
+				"type": "nvarchar"
 			},
 			{
 				"name": "OrganizationLevel",
-				"type": "smallint",
-				"precision": 5
+				"type": "nvarchar"
 			},
 			{
 				"name": "JobTitle",
