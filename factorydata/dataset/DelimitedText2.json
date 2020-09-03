@@ -13,7 +13,7 @@
 				"fileName": "EmployeeStatus.txt",
 				"container": "employeedata"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": "\t",
 			"escapeChar": "\\",
 			"quoteChar": "\""
 		},
