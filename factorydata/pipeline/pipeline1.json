@@ -212,14 +212,7 @@
 			{
 				"name": "Copy Employees",
 				"type": "Copy",
-				"dependsOn": [
-					{
-						"activity": "Copy Employee Status",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
+				"dependsOn": [],
 				"policy": {
 					"timeout": "7.00:00:00",
 					"retry": 0,
@@ -236,7 +229,8 @@
 							"recursive": true
 						},
 						"formatSettings": {
-							"type": "DelimitedTextReadSettings"
+							"type": "DelimitedTextReadSettings",
+							"skipLineCount": 273
 						}
 					},
 					"sink": {
